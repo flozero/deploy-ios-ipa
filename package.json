@@ -1,0 +1,42 @@
+{
+  "name": "deploy-ios-ipa",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "private": true,
+  "license": "MIT",
+  "bin": {
+    "tauri-ios-ipa": "index.js"
+  },
+  "files": [
+    "index.js",
+    "dist"
+  ],
+  "scripts": {
+    "dev:stub": "unbuild --stub",
+    "dev": "nodemon",
+    "build": "unbuild",
+    "typecheck": "tsc --noEmit"
+  },
+  "engines": {
+    "node": "^18.0.0 || >=20.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flozero/deploy-ios-ipa.git",
+    "directory": "."
+  },
+  "bugs": {
+    "url": "https://github.com/flozero/deploy-ios-ipa/issues"
+  },
+  "homepage": "https://github.com/flozero/deploy-ios-ipa/tree/main/#readme",
+  "devDependencies": {
+    "@types/minimist": "^1.2.5",
+    "@types/prompts": "^2.4.9",
+    "kolorist": "^1.8.0",
+    "nodemon": "^3.1.0",
+    "prompts": "^2.4.2",
+    "spawn-please": "^3.0.0",
+    "unbuild": "^2.0.0"
+  }
+}

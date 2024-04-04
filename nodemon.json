@@ -1,0 +1,6 @@
+{
+  "watch": ["src"],
+  "ext": "ts",
+  "exec": "yarn dev:stub",
+  "exclude": ["node_modules", "dist"]
+}
