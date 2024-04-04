@@ -1,6 +1,20 @@
 # Changelog
 
 
+## v1.0.4
+
+[compare changes](https://github.com/flozero/deploy-ios-ipa/compare/v1.0.3...v1.0.4)
+
+### 🏡 Chore
+
+- Update readme ([85c106e](https://github.com/flozero/deploy-ios-ipa/commit/85c106e))
+- Adding code of conduct ([6e84bba](https://github.com/flozero/deploy-ios-ipa/commit/6e84bba))
+- Add missing dep ([749e1a3](https://github.com/flozero/deploy-ios-ipa/commit/749e1a3))
+
+### ❤️ Contributors
+
+- Florent Giraud ([@flozero](http://github.com/flozero))
+
 ## v1.0.3
 
 [compare changes](https://github.com/flozero/deploy-ios-ipa/compare/v1.0.2...v1.0.3)
