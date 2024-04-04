@@ -2,7 +2,7 @@
 
 [IMPORTANT] Take note that this is using apple apps not a tiers app where you will have to pay.
 
-Actually this only support physical devices. If there is needs for emulators. I will look at it
+Actually this only support physical devices.
 
 ## Installation
 
