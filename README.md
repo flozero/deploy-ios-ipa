@@ -1,5 +1,7 @@
 # deploy-ios-ipa
 
+Actually this only support physical devices. If there is needs for emulators. I will look at it
+
 ## Installation
 
 Make sure to be at the root folder of of the tauri project. Not `tauri-src`
