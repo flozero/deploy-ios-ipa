@@ -13,12 +13,11 @@
     "dist"
   ],
   "scripts": {
-    "prepack": "npm run build",
+    "prepack": "yarn build",
     "dev:stub": "unbuild --stub",
     "dev": "nodemon",
     "build": "unbuild",
-    "typecheck": "tsc --noEmit",
-    "release": "npm run prepack && changelogen --release && npm publish && git push --follow-tags"
+    "release": "yarn prepack && changelogen --release && yarn publish && git push --follow-tags"
   },
   "engines": {
     "node": "^18.0.0 || >=20.0.0"
@@ -40,6 +39,7 @@
     "nodemon": "^3.1.0",
     "prompts": "^2.4.2",
     "spawn-please": "^3.0.0",
+    "typescript": "^5.4.3",
     "unbuild": "^2.0.0"
   },
   "dependencies": {}
