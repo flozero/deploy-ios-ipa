@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v1.0.2
+
+[compare changes](https://github.com/flozero/deploy-ios-ipa/compare/v1.0.1...v1.0.2)
+
+### 🏡 Chore
+
+- Remove private property to publish it ([122566e](https://github.com/flozero/deploy-ios-ipa/commit/122566e))
+
+### ❤️ Contributors
+
+- Florent Giraud ([@flozero](http://github.com/flozero))
+
 ## v1.0.1
 
 
