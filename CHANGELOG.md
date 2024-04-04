@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v1.0.9
+
+[compare changes](https://github.com/flozero/deploy-ios-ipa/compare/v1.0.8...v1.0.9)
+
+### 🏡 Chore
+
+- Missing config using yarn where it should have used npm ([7b68f8b](https://github.com/flozero/deploy-ios-ipa/commit/7b68f8b))
+
+### ❤️ Contributors
+
+- Florent Giraud ([@flozero](http://github.com/flozero))
+
 ## v1.0.8
 
 [compare changes](https://github.com/flozero/deploy-ios-ipa/compare/v1.0.7...v1.0.8)
