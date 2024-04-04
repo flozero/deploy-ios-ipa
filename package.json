@@ -17,7 +17,8 @@
     "dev:stub": "unbuild --stub",
     "dev": "nodemon",
     "build": "unbuild",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "release": "npm run prepack && changelogen --release && npm publish && git push --follow-tags"
   },
   "engines": {
     "node": "^18.0.0 || >=20.0.0"
@@ -34,10 +35,12 @@
   "devDependencies": {
     "@types/minimist": "^1.2.5",
     "@types/prompts": "^2.4.9",
+    "changelogen": "^0.5.5",
     "kolorist": "^1.8.0",
     "nodemon": "^3.1.0",
     "prompts": "^2.4.2",
     "spawn-please": "^3.0.0",
     "unbuild": "^2.0.0"
-  }
+  },
+  "dependencies": {}
 }
